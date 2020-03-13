@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#383838"
+    android:orientation="vertical"
+    tools:context=".view_data">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:ems="10"
+        android:gravity="start"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FC141313"
+        android:textColorLink="#0C0B0B" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:background="#1D1A1A"
+            android:text="@string/delete"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/copy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:background="#1D1A1A"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/copy"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>
